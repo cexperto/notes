@@ -35,8 +35,13 @@ header nav h2 {
 nav img {
     width: 30px;
 }
-header .header-bienvenidos {
+header .header-loginProfes {
     margin-right: 50px;
+    display: flex;
+}
+.loginProfes-text{
+    width: 150px;
+    margin: auto;
 }
 .main-container{
     height: 85vh;
@@ -83,4 +88,12 @@ header .header-bienvenidos {
     font-size: 2rem;
     font-weight: 500;
     height: 100%;
+}
+.img-profe{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: var(--profe1);
+    background-position: center;
+    background-size: cover;
 }
