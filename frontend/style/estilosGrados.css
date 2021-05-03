@@ -1,0 +1,86 @@
+:root{
+    /* tipo de letras */
+    --font: 'Roboto', sans-serif;
+    /* imganes de los profes */
+    --profe1: url(../assent/img/profe1.jpg);
+    --profe2: url(../assent/img/profe2.jpg);
+    --profe3: url(../assent/img/profe3.jpg);
+    --profe4: url(../assent/img/profe4.jpg);
+    --profe5: url(../assent/img/profe5.jpg);
+    --profe6: url(../assent/img/profe6.jpg);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: var(--font);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header nav a {
+    margin-left: 30px;
+    display: flex;
+    text-decoration: none;
+}
+header nav h2 {
+    color: black;
+    margin-left: 20px;
+}
+nav img {
+    width: 30px;
+}
+header .header-bienvenidos {
+    margin-right: 50px;
+}
+.main-container{
+    height: 85vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.main-container .main-grado{
+    display: flex;
+    margin: auto 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-informacion{
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+.main-grado a{
+    text-decoration: none;
+}
+.main-grado-uno{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 15px;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    background-color: aqua;
+}
+.main-grado-uno p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+    height: 100%;
+}
