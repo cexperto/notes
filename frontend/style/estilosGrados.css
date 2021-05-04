@@ -8,6 +8,10 @@
     --profe4: url(../assent/img/profe4.jpg);
     --profe5: url(../assent/img/profe5.jpg);
     --profe6: url(../assent/img/profe6.jpg);
+    /* colores de la web */
+    --header: #903749;
+    --botongrados: #2B2E4A;
+    --textinfo: #53354a;
 }
 * {
     margin: 0;
@@ -22,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    background-color: var(--header);
 }
 header nav a {
     margin-left: 30px;
@@ -56,14 +61,20 @@ header .header-loginProfes {
     justify-content: center;
 }
 .main-informacion{
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     height: 30px;
     width: 80%;
     padding: 5px;
     margin: 5px;
-    background-color: aquamarine;
+    background-color: var(--textinfo);
     margin: auto;
-
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-informacion h3{
+    margin-right: 10px;
 }
 .main-grado a{
     text-decoration: none;
@@ -78,10 +89,10 @@ header .header-loginProfes {
     background-position: center;
     background-size: cover;
     cursor: pointer;
-    background-color: aqua;
+    background-color: var(--botongrados);
 }
 .main-grado-uno p{
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
