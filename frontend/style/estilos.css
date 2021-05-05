@@ -1,0 +1,141 @@
+:root{
+    /* tipo de letras */
+    --font: 'Roboto', sans-serif;
+    /* imganes de los profes */
+    --profe1: url(../assent/img/profe1.jpg);
+    --profe2: url(../assent/img/profe2.jpg);
+    --profe3: url(../assent/img/profe3.jpg);
+    --profe4: url(../assent/img/profe4.jpg);
+    --profe5: url(../assent/img/profe5.jpg);
+    --profe6: url(../assent/img/profe6.jpg);
+    --escudo: url(/assent/img/schoollogo.png);
+    /* colores de la web */
+    --header: #903749;
+    --botongrados: #2B2E4A;
+    --textinfo: #53354a;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: var(--font);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: var(--header);
+}
+header nav a {
+    margin-left: 30px;
+    display: flex;
+    text-decoration: none;
+}
+header nav h2 {
+    color: black;
+    margin-left: 20px;
+}
+nav img {
+    width: 30px;
+}
+header .header-bienvenidos {
+    margin-right: 50px;
+}
+.main-container{
+    height: 85vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-image: var(--escudo);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.main-container .main-profes{
+    display: flex;
+    margin: auto 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-informacion{
+    border-radius: 0 0 5px 5px;
+    height: 30px;
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--textinfo);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.main-informacion h3{
+    margin-right: 10px;
+}
+.main-profe-uno{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: var(--profe1);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 2;
+}
+.main-profe-dos{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: var(--profe2);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.main-profe-tres{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: var(--profe3);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.main-profe-cuatro{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: var(--profe4);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.main-profe-cinco{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: var(--profe5);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.main-profe-seix{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: var(--profe6);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}

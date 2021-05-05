@@ -1,0 +1,26 @@
+{
+  "name": "escuela",
+  "version": "1.0.0",
+  "description": "Platform for teachers where they can choose their grades and subjects and validate the grades until they know their average",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cexperto/notes.git"
+  },
+  "keywords": [
+    "escuela",
+    "profesores",
+    "notas",
+    "promedio",
+    "estudiantes"
+  ],
+  "author": "oscaremc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cexperto/notes/issues"
+  },
+  "homepage": "https://github.com/cexperto/notes#readme"
+}
