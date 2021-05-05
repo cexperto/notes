@@ -8,6 +8,7 @@
     --profe4: url(../assent/img/profe4.jpg);
     --profe5: url(../assent/img/profe5.jpg);
     --profe6: url(../assent/img/profe6.jpg);
+    --escudo: url(../assent/img/schoollogo.png);
     /* colores de la web */
     --header: #903749;
     --botongrados: #2B2E4A;
@@ -53,6 +54,10 @@ header .header-loginProfes {
     width: 90%;
     margin: auto;
     text-align: center;
+    background-image: var(--escudo);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
 }
 .main-container .main-grado{
     display: flex;
