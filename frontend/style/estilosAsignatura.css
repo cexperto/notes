@@ -85,7 +85,7 @@ header .header-loginProfes {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: var(--profe1);
+    background-color: darkgrey;
     background-position: center;
     background-size: cover;
 }
@@ -99,7 +99,8 @@ header .header-loginProfes {
     border: solid;
 }
 .main-asignaturas{
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 15px 0;
 }
