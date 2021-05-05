@@ -15,7 +15,7 @@ def index():
     return 'api notas'
 
 @app.route('/teachers')
-def teachers():
+def teachers():    
     cursor = connection.cursor()
     postgreSQL_select_Query = "SELECT id_t, name FROM teachers"
     cursor.execute(postgreSQL_select_Query)
